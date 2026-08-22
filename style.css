@@ -1,0 +1,206 @@
+/* --- Basic Setup & Variables --- */
+:root {
+    --primary: #6C63FF; /* Default theme color, changed by JS later */
+    --bg-color: #f7f9fc;
+    --text-main: #333333;
+    --text-light: #666666;
+    --card-bg: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px; /* Keeps it nice and mobile-sized on desktops */
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+/* --- Utilities --- */
+.text-center { text-align: center; }
+.hidden { display: none !important; }
+.active { display: block; }
+.section { animation: fadeIn 0.5s ease-in; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Cards --- */
+.card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.paper-effect {
+    background-color: #fffdf5; /* Slight yellow tint like old paper */
+    border: 1px solid #f0ead6;
+}
+
+/* --- Typography --- */
+h1.title {
+    color: var(--primary);
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: var(--text-main);
+    border-bottom: 2px solid var(--bg-color);
+    padding-bottom: 8px;
+}
+
+.subtitle {
+    color: var(--text-light);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.subject-badge {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-spacing {
+    margin: 40px 0;
+}
+
+.letter-text {
+    font-size: 17px;
+    color: #444;
+    white-space: pre-wrap; /* Respects line breaks in JavaScript strings */
+}
+
+/* --- Input & Buttons --- */
+input[type="text"] {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+
+button {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Links that look like buttons */
+.btn-link {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.error-text {
+    color: #e74c3c;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* --- Stats Progress Bars --- */
+.stat-row {
+    margin-bottom: 12px;
+}
+
+.stat-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.progress-bg {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    height: 12px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background-color: var(--primary);
+    height: 100%;
+    border-radius: 10px;
+    width: 0%; /* Set by JS */
+    transition: width 1s ease-in-out;
+}
+
+/* --- Resources --- */
+.resource-item {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--bg-color);
+}
+.resource-item:last-child {
+    border-bottom: none;
+}
+.resource-title { font-weight: bold; font-size: 16px; }
+.resource-desc { font-size: 14px; color: var(--text-light); margin-top: 4px;}
+
+/* --- Final Message --- */
+.final-msg {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.general-msg {
+    font-size: 16px;
+    color: var(--text-light);
+    font-style: italic;
+}
