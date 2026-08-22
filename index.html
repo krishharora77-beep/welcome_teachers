@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teacher's Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- ================= LOGIN SCREEN ================= -->
+        <div id="login-section" class="section active text-center">
+            <div class="card">
+                <h1 class="title">A Little Something For You ❤️</h1>
+                <p class="subtitle">Please enter the secret code given to you...</p>
+                
+                <input type="text" id="secret-code" placeholder="e.g. SCI-7429" autocomplete="off">
+                <button id="login-btn">OPEN</button>
+                
+                <p id="error-msg" class="error-text hidden"></p>
+            </div>
+        </div>
+
+        <!-- ================= PERSONALIZED CONTENT ================= -->
+        <div id="content-section" class="section hidden">
+            
+            <!-- Header -->
+            <header class="text-center header-spacing">
+                <h1 id="teacher-name" class="title">Welcome!</h1>
+                <p id="teacher-subject" class="subject-badge">Subject</p>
+            </header>
+
+            <!-- Letter Section -->
+            <div class="card paper-effect">
+                <h2>A Letter For You 💌</h2>
+                <div id="teacher-letter" class="letter-text">
+                    <!-- JS will insert letter here -->
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="card">
+                <h2>Your Teacher Statistics 📊</h2>
+                <div id="teacher-stats" class="stats-container">
+                    <!-- JS will insert progress bars here -->
+                </div>
+            </div>
+
+            <!-- Resources Section -->
+            <div class="card">
+                <h2>A Few Things We Found For You 🔎</h2>
+                <div id="teacher-resources" class="resources-container">
+                    <!-- JS will insert links here -->
+                </div>
+            </div>
+
+            <!-- Final Message -->
+            <div class="card text-center">
+                <h2>One Last Thing ❤️</h2>
+                <p id="teacher-final-msg" class="final-msg">
+                    <!-- JS will insert personalized final message here -->
+                </p>
+                <hr class="divider">
+                <p class="general-msg">
+                    You teach us much more than what's written in a textbook.<br>
+                    Thank you.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
