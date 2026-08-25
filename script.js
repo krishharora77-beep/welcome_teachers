@@ -12,7 +12,7 @@ const teachersData = {
         
         // NOTICE: We use backticks (`) here. 
         // This lets you press Enter and write paragraphs naturally!
-        letter: `letter: `Dear Sir,
+        letter: `Dear Sir,
 
 Three years is actually a long time.
 
