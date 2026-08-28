@@ -83,22 +83,36 @@ Happy Teacher's Day, Sir. ❤️
         finalMessage: "Thank you for sparking our curiosity!"
     },
 
-    "MAT-3816": {
-        name: "Mr. Verma",
-        subject: "Mathematics",
+    "MENT-2701": {
+        name: "Mr. Priyanshu Mehrotra",
+        subject: "All-Round Mentor",
         themeColor: "#E056FD", // Optional: Purple
         
-        letter: `Dear Mr. Verma,
+        letter: `Dear Mr. Mehrotra Bro,
 
-Math used to be scary, but your classes changed that. Thank you for your endless patience when we don't understand an equation the first time.
+I joined your coaching in February because, honestly, Maths and I were not exactly best friends. 😭
 
-Happy Teacher's Day!`,
+But somehow, you managed to get me through the entire syllabus months before I expected. And the funniest part? Sometimes I genuinely wondered whether I had come to a Maths class or just my bro's place to hang out. 😂
+
+You somehow have every personality possible. Sometimes you're stricter than a teacher should be, and sometimes you're more lenient than a bro should be.
+
+But beyond Maths, you've helped me understand things about myself that I had never really understood before. You've listened, explained, suggested, and somehow always managed to understand what I was trying to say.
+
+I'll also admit that I still haven't completely forgiven you for that "surprise" with the red ink. I genuinely thought something amazing was coming, and then I saw the paper. 💀
+
+And yes, I'm sorry for giving up on that test. I know you were angry for a reason.
+
+Thank you for being more than just my Maths teacher. You've made these months genuinely unforgettable.
+
+Happy Teacher's Day, Sir. ❤️
+
+— Krishhu Bro` ,
         
         stats: {
-            "Patience": 96,
-            "Explanation": 99,
-            "Motivation": 94,
-            "Humour": 88
+            "Patience": ∞,
+            "Explanation": ∞,
+            "Motivation": ∞,
+            "Humour": ∞
         },
         
         resources: [
@@ -109,7 +123,24 @@ Happy Teacher's Day!`,
             }
         ],
         
-        finalMessage: "Thank you for making maths logical and fun."
+        finalMessage: "Thank you for teaching me; THE CORRECT WAY OF LIVING LIFE..."
+        special: "priyanshu-cart",
+
+gifts: [
+    {
+        name: "Coffee Set",
+        icon: "☕",
+        description: "For all those classes, conversations and late-day BAK-BAK."
+    },
+
+    {
+        name: "WILD STONE RED",
+        icon: "🌊",
+        description: "Because teaching is tiring enough. Might as well smell good while doing it."
+    }
+
+    // Add more gifts here later
+]
     }
     
     // To add more teachers, copy a block above and paste it here with a comma between them!
@@ -191,6 +222,9 @@ function buildTeacherPage(teacher) {
         `;
         resourcesContainer.innerHTML += resourceHtml;
     });
+    if (teacher.special === "priyanshu-cart") {
+    createPriyanshuCart(teacher.gifts);
+    }
 }
 
 loginBtn.addEventListener('click', handleLogin);
@@ -200,3 +234,761 @@ codeInput.addEventListener('keypress', function(e) {
         handleLogin();
     }
 });
+// =======================================================
+// PRIYANSHU SIR — SECRET GIFT CART
+// =======================================================
+
+function createPriyanshuCart(gifts = []) {
+
+    // Prevent duplicate creation
+    if (document.getElementById("priyanshu-cart-button")) {
+        return;
+    }
+
+    // ---------------- CART BUTTON ----------------
+
+    const cartButton = document.createElement("button");
+
+    cartButton.id = "priyanshu-cart-button";
+    cartButton.innerHTML = `
+        🛒
+        <span>1</span>
+    `;
+
+    document.body.appendChild(cartButton);
+
+
+    // ---------------- STORE ----------------
+
+    const store = document.createElement("div");
+
+    store.id = "priyanshu-secret-store";
+
+    store.innerHTML = `
+        <div class="priyanshu-store-header">
+
+            <button id="priyanshu-close-store">
+                ←
+            </button>
+
+            <div class="priyanshu-store-title">
+
+                <strong>
+                    The Beta AI Feature
+                </strong>
+
+                <small>
+                    Got something in your cart,
+                    it thought u actually needed...
+                </small>
+
+            </div>
+
+            <span class="priyanshu-store-cart">
+                🛒
+            </span>
+
+        </div>
+
+
+        <div class="priyanshu-store-body">
+
+            <div class="priyanshu-ai-note">
+                <span>🤖</span>
+
+                <div>
+                    <strong>
+                        Beta AI Recommendation
+                    </strong>
+
+                    <p>
+                        Based on absolutely questionable
+                        calculations.
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="priyanshu-gift-list"></div>
+
+
+            <div class="priyanshu-checkout">
+
+                <div>
+                    <span>Items</span>
+                    <strong>${gifts.length + 1}</strong>
+                </div>
+
+                <div>
+                    <span>Delivery</span>
+                    <strong>By Your Students ❤️</strong>
+                </div>
+
+                <hr>
+
+                <div class="priyanshu-total">
+                    <span>Total</span>
+                    <strong>Already Paid ❤️</strong>
+                </div>
+
+                <button id="priyanshu-order-button">
+                    PLACE ORDER →
+                </button>
+
+            </div>
+
+        </div>
+    `;
+
+    document.body.appendChild(store);
+
+
+    // ---------------- GIFT CARDS ----------------
+
+    const giftList =
+        document.getElementById("priyanshu-gift-list");
+
+
+    gifts.forEach(gift => {
+
+        const card = document.createElement("div");
+
+        card.className = "priyanshu-gift-card";
+
+        card.innerHTML = `
+            <div class="priyanshu-gift-icon">
+                ${gift.icon}
+            </div>
+
+            <div class="priyanshu-gift-info">
+
+                <h3>
+                    ${gift.name}
+                </h3>
+
+                <p>
+                    ${gift.description}
+                </p>
+
+                <small>
+                    ✓ Added by Beta AI
+                </small>
+
+            </div>
+        `;
+
+        giftList.appendChild(card);
+
+    });
+
+
+    // ---------------- FINAL SPECIAL ITEM ----------------
+
+    const finalCard = document.createElement("div");
+
+    finalCard.className =
+        "priyanshu-gift-card priyanshu-final-gift";
+
+    finalCard.innerHTML = `
+        <div class="priyanshu-gift-icon">
+            ⏳
+        </div>
+
+        <div class="priyanshu-gift-info">
+
+            <h3>
+                Some More Time
+            </h3>
+
+            <p>
+                Some more time for teaching,
+                after wasting time in
+                <strong>BAK-BAK...</strong>
+            </p>
+
+            <small>
+                Quantity: ∞
+            </small>
+
+        </div>
+    `;
+
+    giftList.appendChild(finalCard);
+
+
+    // ---------------- BUTTON EVENTS ----------------
+
+    cartButton.addEventListener("click", () => {
+
+        store.style.display = "block";
+
+        document.body.style.overflow = "hidden";
+
+    });
+
+
+    document
+        .getElementById("priyanshu-close-store")
+        .addEventListener("click", () => {
+
+            store.style.display = "none";
+
+            document.body.style.overflow = "";
+
+        });
+
+
+    document
+        .getElementById("priyanshu-order-button")
+        .addEventListener("click", showPriyanshuOrder);
+
+
+    // ---------------- CSS ----------------
+
+    const style = document.createElement("style");
+
+    style.id = "priyanshu-cart-style";
+
+    style.textContent = `
+
+        #priyanshu-cart-button {
+
+            position: fixed;
+
+            right: 20px;
+            bottom: 20px;
+
+            width: 58px;
+            height: 58px;
+
+            border: none;
+            border-radius: 50%;
+
+            background: #111;
+            color: white;
+
+            font-size: 24px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            cursor: pointer;
+
+            z-index: 9998;
+
+            box-shadow:
+                0 8px 25px rgba(0,0,0,.25);
+
+        }
+
+
+        #priyanshu-cart-button span {
+
+            position: absolute;
+
+            top: -3px;
+            right: -3px;
+
+            width: 21px;
+            height: 21px;
+
+            background: #e53935;
+
+            border-radius: 50%;
+
+            font-size: 11px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+
+        #priyanshu-secret-store {
+
+            display: none;
+
+            position: fixed;
+
+            inset: 0;
+
+            background: #f6f6f6;
+
+            z-index: 9999;
+
+            overflow-y: auto;
+
+            font-family:
+                Arial,
+                sans-serif;
+
+        }
+
+
+        .priyanshu-store-header {
+
+            position: sticky;
+
+            top: 0;
+
+            min-height: 65px;
+
+            background: white;
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 12px;
+
+            padding: 10px 16px;
+
+            border-bottom:
+                1px solid #ddd;
+
+            z-index: 2;
+
+        }
+
+
+        .priyanshu-store-header button {
+
+            border: none;
+
+            background: none;
+
+            font-size: 26px;
+
+            cursor: pointer;
+
+        }
+
+
+        .priyanshu-store-title {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 3px;
+
+        }
+
+
+        .priyanshu-store-title strong {
+
+            font-size: 18px;
+
+        }
+
+
+        .priyanshu-store-title small {
+
+            color: #777;
+
+            font-size: 11px;
+
+            max-width: 240px;
+
+        }
+
+
+        .priyanshu-store-cart {
+
+            margin-left: auto;
+
+            font-size: 22px;
+
+        }
+
+
+        .priyanshu-store-body {
+
+            max-width: 650px;
+
+            margin: auto;
+
+            padding: 15px;
+
+        }
+
+
+        .priyanshu-ai-note {
+
+            background: white;
+
+            border-radius: 14px;
+
+            padding: 15px;
+
+            display: flex;
+
+            gap: 12px;
+
+            margin-bottom: 15px;
+
+            box-shadow:
+                0 2px 8px rgba(0,0,0,.05);
+
+        }
+
+
+        .priyanshu-ai-note > span {
+
+            font-size: 27px;
+
+        }
+
+
+        .priyanshu-ai-note strong {
+
+            font-size: 14px;
+
+        }
+
+
+        .priyanshu-ai-note p {
+
+            margin: 4px 0 0;
+
+            font-size: 12px;
+
+            color: #777;
+
+        }
+
+
+        .priyanshu-gift-card {
+
+            background: white;
+
+            border-radius: 14px;
+
+            padding: 15px;
+
+            margin-bottom: 12px;
+
+            display: flex;
+
+            gap: 14px;
+
+            box-shadow:
+                0 2px 8px rgba(0,0,0,.05);
+
+        }
+
+
+        .priyanshu-gift-icon {
+
+            width: 62px;
+            height: 62px;
+
+            flex-shrink: 0;
+
+            border-radius: 11px;
+
+            background: #eeeeee;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            font-size: 28px;
+
+        }
+
+
+        .priyanshu-gift-info {
+
+            flex: 1;
+
+        }
+
+
+        .priyanshu-gift-info h3 {
+
+            margin: 0 0 6px;
+
+            font-size: 16px;
+
+        }
+
+
+        .priyanshu-gift-info p {
+
+            margin: 0;
+
+            color: #666;
+
+            font-size: 13px;
+
+            line-height: 1.45;
+
+        }
+
+
+        .priyanshu-gift-info small {
+
+            display: block;
+
+            margin-top: 9px;
+
+            color: #16803c;
+
+            font-size: 11px;
+
+        }
+
+
+        .priyanshu-final-gift {
+
+            background: #fffdf5;
+
+            border: 1px dashed #aaa;
+
+        }
+
+
+        .priyanshu-checkout {
+
+            background: white;
+
+            border-radius: 14px;
+
+            padding: 18px;
+
+            margin-top: 18px;
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .priyanshu-checkout > div {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            margin-bottom: 12px;
+
+            font-size: 13px;
+
+        }
+
+
+        .priyanshu-checkout hr {
+
+            border: none;
+
+            border-top:
+                1px solid #ddd;
+
+            margin: 14px 0;
+
+        }
+
+
+        .priyanshu-checkout .priyanshu-total {
+
+            font-size: 17px;
+
+            font-weight: bold;
+
+        }
+
+
+        #priyanshu-order-button {
+
+            width: 100%;
+
+            padding: 15px;
+
+            margin-top: 10px;
+
+            border: none;
+
+            border-radius: 10px;
+
+            background: #111;
+
+            color: white;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+        }
+
+
+        @media (max-width: 500px) {
+
+            .priyanshu-store-body {
+
+                padding: 12px;
+
+            }
+
+            .priyanshu-gift-card {
+
+                padding: 13px;
+
+            }
+
+            .priyanshu-gift-icon {
+
+                width: 56px;
+                height: 56px;
+
+            }
+
+        }
+
+    `;
+
+    document.head.appendChild(style);
+}
+
+
+// =======================================================
+// PRIYANSHU — ORDER CONFIRMATION
+// =======================================================
+
+function showPriyanshuOrder() {
+
+    const popup = document.createElement("div");
+
+    popup.id = "priyanshu-order-popup";
+
+    popup.innerHTML = `
+
+        <div>
+
+            <div style="font-size:45px;">
+                📦
+            </div>
+
+            <h2>
+                Order Confirmed!
+            </h2>
+
+            <p>
+                Your order has been successfully placed.
+            </p>
+
+            <p>
+                Please check your surroundings.<br>
+                Your delivery may already be on its way. 👀
+            </p>
+
+            <button id="close-priyanshu-order">
+                Okay, Sir 😌
+            </button>
+
+        </div>
+
+    `;
+
+
+    const style = document.createElement("style");
+
+    style.textContent = `
+
+        #priyanshu-order-popup {
+
+            position: fixed;
+
+            inset: 0;
+
+            background:
+                rgba(0,0,0,.55);
+
+            z-index: 10000;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            padding: 20px;
+
+        }
+
+
+        #priyanshu-order-popup > div {
+
+            background: white;
+
+            width: 100%;
+
+            max-width: 350px;
+
+            padding: 30px 22px;
+
+            border-radius: 20px;
+
+            text-align: center;
+
+        }
+
+
+        #priyanshu-order-popup h2 {
+
+            margin: 12px 0 8px;
+
+        }
+
+
+        #priyanshu-order-popup p {
+
+            color: #555;
+
+            font-size: 14px;
+
+            line-height: 1.5;
+
+        }
+
+
+        #close-priyanshu-order {
+
+            width: 100%;
+
+            padding: 13px;
+
+            margin-top: 10px;
+
+            border: none;
+
+            border-radius: 9px;
+
+            background: #111;
+
+            color: white;
+
+            cursor: pointer;
+
+        }
+
+    `;
+
+    document.head.appendChild(style);
+
+
+    document
+        .getElementById("close-priyanshu-order")
+        .addEventListener("click", () => {
+
+            popup.remove();
+            style.remove();
+
+        });
+
+
+    document.body.appendChild(popup);
+
+}
