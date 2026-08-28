@@ -109,10 +109,10 @@ Happy Teacher's Day, Sir. ❤️
 — Krishhu Bro` ,
         
         stats: {
-            "Patience": ∞,
-            "Explanation": ∞,
-            "Motivation": ∞,
-            "Humour": ∞
+            "Patience": 100,
+            "Explanation": 100,
+            "Motivation": 100,
+            "Humour": 100
         },
         
         resources: [
@@ -141,7 +141,7 @@ gifts: [
 
     // Add more gifts here later
 ]
-    }
+    },
     
     // To add more teachers, copy a block above and paste it here with a comma between them!
 };
@@ -253,7 +253,7 @@ function createPriyanshuCart(gifts = []) {
     cartButton.id = "priyanshu-cart-button";
     cartButton.innerHTML = `
         🛒
-        <span>4</span>
+        <span>1</span>
     `;
 
     document.body.appendChild(cartButton);
