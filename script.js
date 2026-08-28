@@ -234,6 +234,7 @@ codeInput.addEventListener('keypress', function(e) {
         handleLogin();
     }
 });
+
 // =======================================================
 // PRIYANSHU SIR — SECRET GIFT CART
 // =======================================================
@@ -252,7 +253,7 @@ function createPriyanshuCart(gifts = []) {
     cartButton.id = "priyanshu-cart-button";
     cartButton.innerHTML = `
         🛒
-        <span>1</span>
+        <span>4</span>
     `;
 
     document.body.appendChild(cartButton);
@@ -321,14 +322,14 @@ function createPriyanshuCart(gifts = []) {
 
                 <div>
                     <span>Delivery</span>
-                    <strong>By Your Students ❤️</strong>
+                    <strong>Check Out Yourself...</strong>
                 </div>
 
                 <hr>
 
                 <div class="priyanshu-total">
                     <span>Total</span>
-                    <strong>Already Paid ❤️</strong>
+                    <strong>Just Some Love...🫶🏻</strong>
                 </div>
 
                 <button id="priyanshu-order-button">
