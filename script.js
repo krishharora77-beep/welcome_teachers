@@ -142,6 +142,55 @@ gifts: [
     // Add more gifts here later
 ]
     },
+
+"GEO-2908": {
+        name: "Mrs. Himanshi Dubey",
+        subject: "Geography",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `Dear Ma'am,
+
+Two years of Geography, and somewhere along the way, our teacher-student relationship became a little more comfortable than usual.
+
+You've always had a friendly way of interacting with students, while still knowing exactly where to draw the line. I think that's something I genuinely appreciate about you—you can be chill without ever losing the respect that a teacher deserves.
+
+I've always tried to keep the same balance with you: comfortable enough to joke around and talk freely, but respectful enough to know when it's time to simply listen.
+
+What I especially like is that you make it easy to approach you. There's never this feeling that every conversation has to be extremely formal or serious. Whether it's something related to class or just a random little conversation, you listen with the same patience and understanding. That simple comfort matters more than it seems, because it makes students feel like they can actually be themselves around you.
+
+You may not realise it, but these little things are what make a teacher memorable.
+
+Thank you for the kindness, understanding, and the comfortable atmosphere you've created over these two years.
+
+Happy Teacher's Day, Ma'am. ❤️
+
+— Krishnam Arora`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 98,
+            "Explanation": 95,
+            "Motivation": 96,
+            "Humour": 91
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Environment Over the Globe",
+                description: "Amazing interactive over-the-globe simulations.",
+                url: "https://earth.nullschool.net"
+            },
+            {
+                title: "Soil Over the World",
+                description: "Know About Soil Over The Globe.",
+                url: "https://soilgrids.org"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
     
     // To add more teachers, copy a block above and paste it here with a comma between them!
 };
