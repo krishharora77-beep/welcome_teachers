@@ -123,7 +123,7 @@ Happy Teacher's Day, Sir. ❤️
             }
         ],
         
-        finalMessage: "Thank you for teaching me; THE CORRECT WAY OF LIVING LIFE..."
+        finalMessage: "Thank you for teaching me; THE CORRECT WAY OF LIVING LIFE...",
         special: "priyanshu-cart",
 
 gifts: [
