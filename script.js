@@ -191,6 +191,254 @@ Happy Teacher's Day, Ma'am. ❤️
         
         finalMessage: "Thank you for sparking our curiosity!"
     },
+
+    "EXPH-9999": {
+        name: "Mr. Ashish Shukla",
+        subject: "Ex-Physics",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // NOTICE: We use backticks (`) here. 
+        // This lets you press Enter and write paragraphs naturally!
+        letter: `Dear Sir,
+
+Some teachers teach you a subject.
+
+Some teachers make you good at it.
+
+And then there are a few teachers who quietly change the way you think about learning itself.
+
+You are one of those teachers.
+
+You taught us Physics in Classes 6, 7 and 8, and at the time, I don't think most of us fully understood just how unusual that was.
+
+We were learning things that we assumed were simply part of being in your class. Newton's three laws? We knew them in Class 7. Concepts that many students encounter much later were already being discussed, explained and drilled into our heads while we were still in middle school.
+
+It was only later, when we reached those topics again, that I realised:
+
+**"Wait... didn't Sir teach us this years ago?"**
+
+And suddenly, a lot of things made sense.
+
+But there was another part of your teaching that I understood much later.
+
+Back then, I thought I was pretty good at Science. Actually, I *was* quite good at it. And naturally, like many students who discover that they're good at something, I sometimes wanted everyone else to know it too.
+
+Especially you.
+
+And somehow, every time I tried to demonstrate how much I knew, you had this incredible ability to make me feel like I had just said absolutely nothing.
+
+No dramatic speech.
+
+No big confrontation.
+
+Just that feeling of:
+
+**"Okay. Maybe sit down. You still have a lot to learn."**
+
+At the time, I didn't understand it.
+
+Neither did many of the other students.
+
+We wondered what you were doing. Why were you always pushing us further? Why weren't you impressed when we thought we had already figured something out?
+
+Now, looking back, I think I finally understand.
+
+You weren't trying to prove that we didn't know enough.
+
+You were showing us that **knowing something is not the same as knowing everything.**
+
+And honestly, Sir, I think I needed that lesson.
+
+Because curiosity is wonderful, but the moment curiosity turns into *"I already know this,"* learning stops.
+
+You didn't let that happen.
+
+You kept making us feel like there was another layer, another question, another concept waiting beyond whatever we thought we had mastered.
+
+And perhaps that's why, even after three years, your teaching still stays with me.
+
+There are also a few things about you that are simply unforgettable.
+
+For example, your walking speed.
+
+Sir, you didn't walk.
+
+You **travelled.**
+
+😂
+
+I genuinely don't know how someone can walk that fast while looking completely normal. Running somehow seemed slower than your walking pace.
+
+And then there was the legendary all-white outfit—the kind of simple, composed look that somehow made you look like you had stepped straight out of a Physics textbook written by a very stylish author.
+
+But jokes aside, when I think about those three years now, I feel a kind of gratitude that I probably didn't have the maturity to express back then.
+
+You taught us Physics far beyond what we expected.
+
+You challenged our thinking.
+
+You didn't flatter us just because we knew a little more than others.
+
+And perhaps most importantly, you taught us that **being knowledgeable is not a reason to stop being a student.**
+
+I think that lesson has stayed with me more than any individual formula.
+
+And there is one slightly embarrassing thing I have to admit.
+
+I walk very fast now too.
+
+I don't know whether that's because of you, but considering the evidence...
+
+**I'm blaming you.** 😂
+
+So, Sir, thank you.
+
+Thank you for teaching us more than we thought we were ready to learn.
+
+Thank you for challenging the version of me who thought he already knew enough.
+
+And thank you for giving me a lesson that I understand much better today than I did when you first taught it:
+
+**There is always more to learn.**
+
+I may not have appreciated that lesson completely at the time.
+
+But today, I genuinely do.
+
+And I think that's one of the clearest signs that a teacher has made a lasting difference.
+
+Happy Teacher's Day, Sir.
+
+-Krishnam Arora`,
+        
+        stats: {
+            "Patience": 31,
+            "Explanation": 98,
+            "Motivation": 76,
+            "Humour": 61
+        },
+        
+        resources: [
+            {
+                title: "PhET Interactive Simulations",
+                description: "Amazing interactive science simulations.",
+                url: "https://phet.colorado.edu/"
+            },
+            {
+                title: "National Geographic Education",
+                description: "Great classroom resources and videos.",
+                url: "https://www.nationalgeographic.org/education/"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+    
+    "CHEM-4Y26": {
+        name: "Mrs. Renu Srivastava",
+        subject: "Chemistry",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // NOTICE: We use backticks (`) here. 
+        // This lets you press Enter and write paragraphs naturally!
+        letter: `Dear Ma'am,
+
+Five years of Chemistry is quite a long time.
+
+And when I look back at these five years, I realise that our journey has been a little different from the usual teacher-student story.
+
+When you first taught me, I don't think you saw me as anything particularly different. I was just another student in your class. Even though I had already developed quite a bit of curiosity and knowledge for my age, you didn't really know that side of me yet.
+
+Then, somewhere along the way, you discovered it.
+
+You started noticing how much I liked learning things beyond what was simply written in the textbook. And slowly, I went from being just another student to someone you trusted and appreciated. Becoming one of your favourites was something I genuinely valued.
+
+But then came the part where I let my own overconfidence get in the way.
+
+I made a mistake. I bunked your period, and in doing so, I damaged the image you had built of me. Looking back, I understand why that mattered. Sometimes one careless decision can make someone question all the good things they had believed about you before.
+
+And honestly, one consequence of that still stays with me.
+
+The Science Exhibition.
+
+I had really wanted to participate, and when you declined my request, it hurt. Especially because I knew that my own actions had played a part in why you didn't trust me with that opportunity.
+
+I won't pretend that I wasn't disappointed.
+
+But with time, I think I understood something more important: being capable isn't enough. Knowledge can make you stand out, but your actions decide whether people can trust you with responsibility.
+
+That was probably one of the most valuable lessons I've received from you, one that had absolutely nothing to do with Chemistry.
+
+And perhaps the part I'm happiest about is that the story didn't end there.
+
+Over time, I grew again in your eyes. I worked my way back from the version of me you had been disappointed in, and today, you sometimes ask me,
+
+"What new information about the world have you learned today?"
+
+Honestly, Ma'am, I don't think you realise how much I like being asked that.
+
+Because it's not really a question about how many facts I know.
+
+It feels like you're asking me to keep being curious.
+
+And that is something I will always appreciate about you.
+
+You saw my curiosity when it was still something I was developing. You saw my overconfidence when I allowed it to get the better of me. You saw me make a mistake. And, eventually, you saw me grow beyond it.
+
+I think that makes your place in my school journey different from that of many other teachers.
+
+You didn't just teach me Chemistry.
+
+In your own way, you taught me that knowledge without humility can become overconfidence, mistakes don't have to define you forever, and earning someone's trust back can be just as meaningful as earning it in the first place.
+
+Maybe I didn't get the Science Exhibition opportunity I once dreamed about.
+
+But I think I gained something from that experience that I will carry much further than one exhibition ever could.
+
+So, Ma'am, thank you.
+
+Thank you for noticing my curiosity.
+
+Thank you for challenging me when I needed it.
+
+Thank you for holding me accountable when I was wrong.
+
+And most importantly, thank you for giving me the opportunity to grow back into the student you could believe in again.
+
+And if you ask me tomorrow,
+
+"What new information about the world have you learned today?"
+
+I hope I always have something new to tell you.
+
+Happy Teacher's Day, Ma'am.
+
+— Krishnam Arora`,
+        
+        stats: {
+            "Patience": 98,
+            "Explanation": 89,
+            "Motivation": 93,
+            "Humour": 96
+        },
+        
+        resources: [
+            {
+                title: "PhET Interactive Simulations",
+                description: "Amazing interactive science simulations.",
+                url: "https://phet.colorado.edu/"
+            },
+            {
+                title: "National Geographic Education",
+                description: "Great classroom resources and videos.",
+                url: "https://www.nationalgeographic.org/education/"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
+
     
     // To add more teachers, copy a block above and paste it here with a comma between them!
 };
