@@ -333,6 +333,52 @@ Happy Teacher's Day, Sir.
         
         finalMessage: "Thank you for sparking our curiosity!"
     },
+
+    "TSCP-0000": {
+        name: "Mrs. Priyanka Taneja",
+        subject: "The School Principal",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // NOTICE: We use backticks (`) here. 
+        // This lets you press Enter and write paragraphs naturally!
+        letter: `Dear Ma'am,
+
+For many students, your presence alone is enough to make an entire corridor suddenly remember every school rule. 😭 But after being under your guidance for almost 8–9 years, I’ve come to know the person behind that strict image—and honestly, there’s a very kind and caring Ma'am there.
+
+You’ve always valued students who are sincere, disciplined, and willing to grow. You never made being the topper the only definition of a good student; being involved, responsible, and giving your best matters too.
+
+One thing I especially admire is how strongly you encourage students to step forward and speak—whether through debates, declamations, or other public-speaking activities. You want students to find their voice, not just their marks.
+
+Thank you for guiding us, maintaining discipline, and still caring about the person behind every student.
+
+Happy Teacher’s Day, Ma'am! ❤️
+
+— Krishnam Arora
+`,
+        
+        stats: {
+            "Patience": 87,
+            "Explanation": 000,
+            "Motivation": 100,
+            "Humour": 82
+        },
+        
+        resources: [
+            {
+                title: "ClassDojo",
+                description: "Socal Meda for Praent-Teacher-Principal Communication",
+                url: "https://www.classdojo.com"
+            },
+            {
+                title: "Vertex42",
+                description: "Spreadsheet Templates For Day-To-Day Management",
+                url: "https://www.vertex42.com/ExcelTemplates/education.html"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
     
     "CHEM-4Y26": {
         name: "Mrs. Renu Srivastava",
@@ -1155,6 +1201,10 @@ function createPriyanshuCart(gifts = []) {
 // PRIYANSHU — ORDER CONFIRMATION
 // =======================================================
 
+// =======================================================
+// PRIYANSHU — ORDER CONFIRMATION
+// =======================================================
+
 function showPriyanshuOrder() {
 
     const popup = document.createElement("div");
@@ -1277,16 +1327,15 @@ function showPriyanshuOrder() {
     document.head.appendChild(style);
 
 
+    // 1. FIRST, append the popup to the body
+    document.body.appendChild(popup);
+
+    // 2. THEN, attach the event listener to the button
     document
         .getElementById("close-priyanshu-order")
         .addEventListener("click", () => {
-
             popup.remove();
             style.remove();
-
         });
-
-
-    document.body.appendChild(popup);
 
 }
