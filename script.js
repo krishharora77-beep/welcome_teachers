@@ -128,15 +128,15 @@ Happy Teacher's Day, Sir. ❤️
 
 gifts: [
     {
-        name: "Coffee Set",
-        icon: "☕",
-        description: "For all those classes, conversations and late-day BAK-BAK."
+        name: "Customised Dark Chocolate Truffle",
+        icon: "🎂",
+        description: "For Today's Gorgeous Event..."
     },
 
     {
-        name: "WILD STONE RED",
+        name: "WILD STONE RED [EAU DE PARFUM]",
         icon: "🌊",
-        description: "Because teaching is tiring enough. Might as well smell good while doing it."
+        description: "Because teaching is tiring enough. Might as well smell good while doing it..."
     }
 
     // Add more gifts here later
@@ -596,7 +596,7 @@ function createPriyanshuCart(gifts = []) {
     cartButton.id = "priyanshu-cart-button";
     cartButton.innerHTML = `
         🛒
-        <span>1</span>
+        <span>3</span>
     `;
 
     document.body.appendChild(cartButton);
@@ -676,7 +676,7 @@ function createPriyanshuCart(gifts = []) {
                 </div>
 
                 <button id="priyanshu-order-button">
-                    PLACE ORDER →
+                    CHECK OUT YOUR ORDER →
                 </button>
 
             </div>
