@@ -314,7 +314,7 @@ I'm truly grateful to have had you as my teacher this year.
         resources: [
             {
                 title: "Nothing Found",
-                description: "_ _ _"
+                description: "_ _ _",
                 url: "https://www.google.com"
             },
             {
