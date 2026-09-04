@@ -282,6 +282,52 @@ Happy Teacher’s Day, Sir! ❤️
         finalMessage: "Thank you for sparking our curiosity!"
     },
 
+     "ENGT-1026": {
+        name: "Mrs. Saloni Gulati",
+        subject: "English",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `Dear Ma’am,
+
+This being my first year learning from you, I wasn't sure what to expect. But somewhere along the way, you noticed something in my work that I hadn't completely recognised myself—you saw my potential.
+
+During the exams, you didn't just appreciate what I did well; you also pointed out the mistakes that were holding me back. At first, they were simply corrections on a paper, but gradually I started noticing those same mistakes myself and working on them. I can genuinely feel myself improving because of that.
+
+What I appreciate most is that you didn't just judge my marks—you looked at what I **could become**. Sometimes, having a teacher who notices your strengths while also being honest about your weaknesses is exactly what a student needs.
+
+Thank you, Ma’am, for recognising my potential, correcting me when I needed it, and helping me become a better English student.
+
+I'm truly grateful to have had you as my teacher this year.
+
+— Krishnam Arora`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 98,
+            "Explanation": 96,
+            "Motivation": 96,
+            "Humour": 92
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Nothing Found",
+                description: "_ _ _"
+                url: "https://www.google.com"
+            },
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
+
      "XBIO-2325": {
         name: "Mrs. Sapna Yadav",
         subject: "Ex-Biology",
