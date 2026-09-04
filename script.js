@@ -325,6 +325,51 @@ So, Ma’am, thank you—not only for teaching me Biology, but for teaching me *
         finalMessage: "Thank you for sparking our curiosity!"
     },
 
+     "RMAT-1026": {
+        name: "Mr. Vikas Tiwari",
+        subject: "Mathematics",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `Dear Sir,
+
+This is my first year being taught by you, and honestly, it has been quite an experience. You are probably one of the most well-known teachers in school, especially for your legendary question papers—the kind that make students question every mathematical decision they've ever made. 😭
+
+But after talking to you during PTMs, I slowly realised that those difficult papers aren't meant to make students fail or to trouble us. You genuinely want us to understand where we stand, work harder, and become better at the subject. That made me look at your strictness in a completely different way.
+
+And apart from all the maths, I have to say—you are a damn good roaster. Your perfectly timed roasting somehow makes even the toughest classes fun.
+
+Thank you, Sir, for challenging us, caring about our progress, and pushing us beyond what we think we can do. I may not always love your question papers, but I truly appreciate the teacher behind them.
+
+Thank you, Sir!
+
+- Krishnam Arora`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 95,
+            "Explanation": 98,
+            "Motivation": 97,
+            "Humour": 96
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            },
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
 
     "EXPH-9999": {
         name: "Mr. Ashish Shukla",
@@ -617,6 +662,8 @@ Happy Teacher's Day, Ma'am.
         
         finalMessage: "Thank you for sparking our curiosity!"
     },
+
+    
 
 
     
