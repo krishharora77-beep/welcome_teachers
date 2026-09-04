@@ -224,7 +224,7 @@ Happy Teacher’s Day, Sir! ❤️
         resources: [
             {
                 title: "Nothing Found",
-                description: "_ _ _"
+                description: "_ _ _",
                 url: "https://www.google.com"
             },
             {
