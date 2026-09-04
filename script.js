@@ -192,6 +192,51 @@ Happy Teacher's Day, Ma'am. ❤️
         finalMessage: "Thank you for sparking our curiosity!"
     },
 
+    "XCOM-2325": {
+        name: "Mr. N.K. Mishra",
+        subject: "Ex-Computers",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `Dear Sir,
+
+There’s one thing I can confidently say about my Computer classes—you’ve always seen me as one of the best students in the class. And honestly, that recognition means more than simply being called “good” at the subject.
+
+Computer Science is a subject I genuinely enjoy, especially because I like understanding how things work rather than just learning them for the sake of exams. Knowing that you’ve noticed my performance and abilities makes me want to keep improving even further.
+
+I’m really grateful for the confidence you’ve given me through your appreciation. Sometimes, a teacher believing in a student can make that student believe in themselves a little more too.
+
+Thank you for teaching me, encouraging me, and for always recognising my efforts.
+
+Happy Teacher’s Day, Sir! ❤️
+
+— Krishnam Arora`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 77,
+            "Explanation": 96,
+            "Motivation": 89,
+            "Humour": 80
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Environment Over the Globe",
+                description: "Amazing interactive over-the-globe simulations.",
+                url: "https://earth.nullschool.net"
+            },
+            {
+                title: "Soil Over the World",
+                description: "Know About Soil Over The Globe.",
+                url: "https://soilgrids.org"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
     "EXPH-9999": {
         name: "Mr. Ashish Shukla",
         subject: "Ex-Physics",
