@@ -223,19 +223,108 @@ Happy Teacher’s Day, Sir! ❤️
         // Add as many links as you want
         resources: [
             {
-                title: "Environment Over the Globe",
-                description: "Amazing interactive over-the-globe simulations.",
-                url: "https://earth.nullschool.net"
+                title: "Nothing Found",
+                description: "_ _ _"
+                url: "https://www.google.com"
             },
             {
-                title: "Soil Over the World",
-                description: "Know About Soil Over The Globe.",
-                url: "https://soilgrids.org"
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
             }
         ],
         
         finalMessage: "Thank you for sparking our curiosity!"
     },
+
+     "COMP-1026": {
+        name: "Mr. Vivek Saxena",
+        subject: "Computers",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `Dear Sir,
+
+There’s one thing I can confidently say about my Computer classes—you’ve always seen me as one of the best students in the class. And honestly, that recognition means more than simply being called “good” at the subject.
+
+Computer Science is a subject I genuinely enjoy, especially because I like understanding how things work rather than just learning them for the sake of exams. Knowing that you’ve noticed my performance and abilities makes me want to keep improving even further.
+
+I’m really grateful for the confidence you’ve given me through your appreciation. Sometimes, a teacher believing in a student can make that student believe in themselves a little more too.
+
+Thank you for teaching me, encouraging me, and for always recognising my efforts.
+
+Happy Teacher’s Day, Sir! ❤️
+
+— Krishnam Arora`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 96,
+            "Explanation": 96,
+            "Motivation": 91,
+            "Humour": 82
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            },
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
+     "XBIO-2325": {
+        name: "Mrs. Sapna Yadav",
+        subject: "Ex-Biology",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `Dear Ma’am,
+
+Looking back, I realise how much I changed during the time you were my class teacher. You were always strict about rules, discipline, and perfection—and honestly, I didn't always appreciate it back then. But today, I understand why you were so particular.
+
+You are known in our school for your perfection, and your classes have always been known for their discipline. Being your student taught me that discipline isn't just about following rules; it is about becoming a better version of yourself.
+
+I also changed the people I surrounded myself with. I moved away from some of my old friendships and became friends with the academically stronger students of my class. Those friendships are still with me today, and they pushed me to improve my own academics and become more focused.
+
+So, Ma’am, thank you—not only for teaching me Biology, but for teaching me **discipline, focus, and the value of excellence. I am genuinely grateful that you were my teacher.
+
+- Krishnam Arora`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 95,
+            "Explanation": 98,
+            "Motivation": 97,
+            "Humour": 82
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            },
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
 
     "EXPH-9999": {
         name: "Mr. Ashish Shukla",
