@@ -709,8 +709,102 @@ Happy Teacher's Day, Ma'am.
         finalMessage: "Thank you for sparking our curiosity!"
     },
 
-    
+     "DGOD-0509": {
+        name: "Mr. Prasoon Tandon",
+        subject: "Coaching Wallah",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `Dear Sir,
 
+Since my final exams of Class 6, you’ve been a part of my journey. And for those first few years, you weren’t just my Science teacher—you taught us almost everything, before our batches eventually divided after Class 8.
+
+Maybe that is why you understood me so well. You recognised my potential very early, perhaps even before I fully recognised it myself. Over the years, that belief turned into something I feel genuinely lucky to have received from a teacher: your love, trust, and faith in me.
+
+Even today, there are students who have been here longer than me and students who may currently perform better academically, yet somehow, I’m still your best. I honestly cannot explain how grateful that makes me feel.
+
+And sometimes, I do feel sorry when my performance doesn't match the small expectations you have for me. But I've realised those expectations aren't really for you—they're for **me**. You expect more because you know what I can become.
+
+Thank you for believing in that person, even when I’m still trying to become him.
+
+Happy Teacher’s Day, Sir. ❤️
+
+— Krishnam Arora`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 91,
+            "Explanation": 100,
+            "Motivation": 97,
+            "Humour": 91
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            },
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
+
+     "DMAT-0509": {
+        name: "Mr. Omkar Mishra",
+        subject: "Maths Wallah",
+        themeColor: "#2E8B57", // Optional: Sea Green
+        
+        // Write the letter here. Use <br><br> for new paragraphs.
+        letter: `**Dear Sir,**
+
+Since Class 9, you’ve been on a mission that, from a student’s perspective, sometimes feels almost personal: **leave absolutely no question unsolved.** 😂
+
+“NCERT three times done, RD Sharma completed, RS Aggarwal in progress…” — at this point, I’m convinced you’re trying to make sure there isn’t a single mathematical question left alive on Earth. 😭
+
+And honestly, who *likes* solving millions of questions? Especially someone like me, who sometimes genuinely feels that if mathematics isn't soluble in water, we should dissolve it in alcohol and drink it instead. 💀
+
+But somewhere between all those questions, I’ve understood why you insist on it. You know that practice is what turns preparation into marks, and even when I resist it, you somehow manage to make me attempt enough questions to reach a level where I can at least secure those satisfactory marks.
+
+What makes it all better is that, like Prasoon Sir, you’re always fun and approachable. We can be completely frank with you, joke around, and still know when it’s time to work.
+
+Thank you for pushing me—even when mathematics and I are clearly not on speaking terms.
+
+**Happy Teacher’s Day, Sir! ❤️**
+
+— Krishnam Arora
+`,
+        
+        // Keep the numbers out of 100
+        stats: {
+            "Patience": 91,
+            "Explanation": 100,
+            "Motivation": 97,
+            "Humour": 91
+        },
+        
+        // Add as many links as you want
+        resources: [
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            },
+            {
+                title: "Nothing Found",
+                description: "_ _ _",
+                url: "https://www.google.com"
+            }
+        ],
+        
+        finalMessage: "Thank you for sparking our curiosity!"
+    },
 
     
     // To add more teachers, copy a block above and paste it here with a comma between them!
